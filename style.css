@@ -1,0 +1,22 @@
+h3
+{
+    font-size: 25px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-success:hover
+{
+  background-color: aquamarine;
+  font-family: cursive;
+}
+
+canvas{
+    animation-name: yash;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes yash {
+    from {box-shadow: 15px 15px 138px black;}
+    to {box-shadow: 15px 15px 138px silver;}
+}
